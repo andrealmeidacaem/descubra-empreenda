@@ -1,50 +1,33 @@
 
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Descubra. Empreenda. Cresça.</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            padding: 2em;
-            color: #333;
-        }
-        section {
-            background-color: #f9f9f9;
-            padding: 2em;
-            border-radius: 10px;
-            max-width: 600px;
-            margin: auto;
-        }
-        input[type="text"], input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Seu Caminho no Empreendedorismo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <section>
-        <h2>Participe agora!</h2>
-        <p>Preencha abaixo para receber conteúdos exclusivos, avisos de lives e oportunidades diretas comigo:</p>
-        <form action="https://formsubmit.co/andrealmeidacaem@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Seu nome" required><br>
-            <input type="email" name="email" placeholder="Seu melhor e-mail" required><br>
-            <input type="text" name="whatsapp" placeholder="Seu WhatsApp" required><br>
-            <input type="hidden" name="_next" value="https://andrealmeidacaem.github.io/descubra-empreenda/obrigado.html">
-            <input type="submit" value="Quero Participar">
-        </form>
-    </section>
+<body class="bg-light">
+    <div class="container py-5 text-center">
+        <h1 class="mb-4">Descubra Seu Caminho no Empreendedorismo</h1>
+        <p class="lead mb-4">Comece com Apoio, Clareza e Ação</p>
+        <div class="card mx-auto" style="max-width: 500px;">
+            <div class="card-body">
+                <p class="card-text">Você quer empreender, mas não sabe por onde começar? Entre para nosso grupo gratuito de mentoria e encontre ideias, suporte e até oportunidades de sociedade em novos negócios.</p>
+                <form action="obrigado.html" method="get">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="3" placeholder="Seu maior desafio para empreender hoje..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Quero Participar</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
