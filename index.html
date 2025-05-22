@@ -1,79 +1,50 @@
 
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubra e Empreenda</title>
+    <title>Descubra. Empreenda. Cresça.</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f7fa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
             background-color: #fff;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+            padding: 2em;
+            color: #333;
         }
-        h1 {
-            color: #222;
-        }
-        .container {
+        section {
+            background-color: #f9f9f9;
+            padding: 2em;
+            border-radius: 10px;
             max-width: 600px;
-            margin: 2rem auto;
-            background: #ffffff;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            margin: auto;
         }
-        input, textarea {
+        input[type="text"], input[type="email"] {
             width: 100%;
-            padding: 0.8rem;
-            margin-top: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 6px;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
         }
-        button {
-            margin-top: 1.5rem;
-            padding: 1rem 2rem;
-            background-color: #008cff;
+        input[type="submit"] {
+            background-color: #4CAF50;
             color: white;
+            padding: 12px 20px;
             border: none;
-            border-radius: 6px;
-            font-size: 1rem;
             cursor: pointer;
-        }
-        button:hover {
-            background-color: #0073e6;
-        }
-        footer {
-            margin-top: 2rem;
-            text-align: center;
-            color: #888;
-            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Descubra Seu Caminho no Empreendedorismo</h1>
-        <p>Comece com Apoio, Clareza e Ação</p>
-    </header>
-    <div class="container">
-        <p>Você quer empreender, mas não sabe por onde começar? Entre para nosso grupo gratuito de mentoria e encontre ideias, suporte e até oportunidades de sociedade em novos negócios.</p>
-        <form action="https://chat.whatsapp.com/KC0ZTsRiEirAlElT3wkqvD" target="_blank">
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu e-mail" required>
-            <textarea placeholder="Seu maior desafio para empreender hoje..."></textarea>
-            <button type="submit">Quero Participar Gratuitamente</button>
+    <section>
+        <h2>Participe agora!</h2>
+        <p>Preencha abaixo para receber conteúdos exclusivos, avisos de lives e oportunidades diretas comigo:</p>
+        <form action="https://formsubmit.co/andrealmeidacaem@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Seu nome" required><br>
+            <input type="email" name="email" placeholder="Seu melhor e-mail" required><br>
+            <input type="text" name="whatsapp" placeholder="Seu WhatsApp" required><br>
+            <input type="hidden" name="_next" value="https://andrealmeidacaem.github.io/descubra-empreenda/obrigado.html">
+            <input type="submit" value="Quero Participar">
         </form>
-    </div>
-    <footer>
-        Projeto com propósito. Inspirado por Deus. Conduzido por pessoas. Criado para transformar vidas.
-    </footer>
+    </section>
 </body>
 </html>
